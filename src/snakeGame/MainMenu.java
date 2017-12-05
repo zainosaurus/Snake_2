@@ -26,7 +26,7 @@ public class MainMenu extends BasicGameState {
         this.container = container;
         
         try {
-            snakeImage = new Image("/Users/Zain/NetBeansProjects/Snake_Copy/src/snakeGame/snake.jpg");
+            snakeImage = new Image("src/snakeGame/snake.jpg");
             snakeImage.setFilter(Image.FILTER_NEAREST);
         } catch (SlickException slick) {
             slick.printStackTrace();
